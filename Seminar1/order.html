@@ -4,21 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="body_decoration">
     <menu>
-      <a href="./index.html">Главная</a>
-      <a href="./info/about.html">Обо мне</a>
-      <a href="order.html">Оставить заявку</a>
+      <a href="./index.html" class="menu">Главная</a>
+      <a href="./info/about.html" class="menu">Обо мне</a>
+      <a href="order.html" class="menu">Оставить заявку</a>
     </menu>
-    <h1>Оставить заявку</h1>
+    <h1 class="title">Оставить заявку</h1>
     <form action="#">
       Ваше имя
-      <input type="name" required placeholder="Введите ваше имя" /><br />
+      <input
+        type="name"
+        class="input_decoration"
+        required
+        placeholder="Введите ваше имя"
+      /><br />
       Электронная почта
-      <input type="email" required placeholder="Введите адрес почты" /><br />
-      <button type="submit">Отправить</button>
-      <button type="reset">Стереть форму</button>
+      <input
+        type="email"
+        class="input_decoration"
+        required
+        placeholder="Введите адрес почты"
+      /><br />
+      <button type="submit" class="button_decoration">Отправить</button>
+      <button type="reset" class="button_decoration">Стереть</button>
     </form>
   </body>
 </html>
