@@ -31,12 +31,9 @@ a {
   line-height: 80px;
 }
 
-.img-decoration {
-  border-radius: 50px;
-  border-color: red;
-  border: 3px;
-  width: 100;
-  height: 40;
+.img-decor {
+  border-radius: 10px;
+  width: 100px;
 }
 
 .input_decoration {
