@@ -1,0 +1,72 @@
+.margin-example {
+  margin: 20px;
+  background-color: lightblue;
+}
+
+.padding-example {
+  padding: 20px;
+  background-color: lightgreen;
+}
+
+.li:hover {
+  background-color: yellow;
+}
+
+.li:active {
+  font-weight: bold;
+}
+
+:root {
+  --block1-bg-color: pink;
+  --block2-bg-color: lightblue;
+}
+
+/* .block1 {
+  background-color: var(--block1-bg-color);
+}
+
+.block2 {
+  background-color: var(--block2-bg-color);
+} */
+
+.block1 {
+  --bg-color: pink;
+  background-color: var(--bg-color);
+}
+
+.block2 {
+  --bg-color: lightblue;
+  background-color: var(--bg-color);
+}
+
+.block1 .child {
+  border: 2px solid var(--bg-color);
+}
+
+.block2 .child {
+  border: 2px dashed var(--bg-color);
+}
+
+li:first-child {
+  font-size: 24px;
+}
+
+li:nth-child(odd) {
+  background-color: grey;
+}
+
+li:nth-child(even) {
+  background-color: rgb(27, 150, 187);
+}
+
+li:first-child {
+  color: red;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
