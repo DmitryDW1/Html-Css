@@ -1,3 +1,15 @@
+@font-face {
+  font-family: my_font;
+  src: url(./fonts/Kode_Mono/KodeMono-Medium.ttf);
+  font-size: 16px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
 }
@@ -15,12 +27,20 @@ a {
   font-weight: bold;
 }
 
+p{
+  color: aquamarine;
+}
+
 .paragraph {
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
   color: #7d7987;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  
 }
 
 .title_h2 {
@@ -34,6 +54,13 @@ a {
 .img-decor {
   border-radius: 10px;
   width: 100px;
+}
+.div_deco{
+  display: flex;
+}
+.img_div{
+  float: right;
+  margin: 20px;
 }
 
 .input_decoration {
@@ -55,5 +82,18 @@ a {
 }
 
 .body_decoration {
-  font-family: sans-serif;
+  font-family: my_font, Kode, sans-serif;
+}
+
+.card{
+  background-color: yellow;
+}
+
+.card img {
+  width: 10%;
+  height: 10%;
+}
+
+h3 {
+  font-weight: 800;
 }
